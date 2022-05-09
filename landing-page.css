@@ -1,0 +1,196 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.topNotice{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topNotice a{
+    color: #393c41;
+}
+
+.firstsec{
+    height: 100vh;
+    width: 100%;
+    background-image: url("photos/model-3.jpg");
+    background-position: center;
+    background-size: 2250px;
+    background-repeat: no-repeat;
+}
+
+ul{
+    list-style: none;
+}
+
+.firstsec li{
+    float: left;
+    margin-right: 25px;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+
+#model1{
+    position: relative;
+    top: 130px;
+}
+
+#model1Order{
+    position: relative;
+    top: 135px;
+}
+
+#buttons1{
+    position: relative;
+    top: 760px;
+}
+
+#btn1{
+    width: 262px;
+    height: 37px;
+    border-radius: 30px;
+    background-color: #393c41;
+    color: white;
+    margin-right: 10px;
+}
+
+#btn2{
+    width: 262px;
+    height: 37px;
+    border-radius: 30px;
+    background-color: #e6e6e6;
+    color:#393c41;
+    border: 0;
+}
+
+.secsec{
+    height: 100vh;
+    width: 100%;
+    background-image: url("photos/model-y.jpg");
+    background-position: center;
+    background-size: 2250px;
+    background-repeat: no-repeat;
+}
+
+#model2{
+    position: relative;
+    top: 130px;
+}
+
+#model2Order{
+    position: relative;
+    top: 135px;
+}
+
+.thdsec{
+    height: 100vh;
+    width: 100%;
+    background-image: url("photos/model-s.jpg");
+    background-position: center;
+    background-size: 2250px;
+    background-repeat: no-repeat;
+}
+
+#model3{
+    position: relative;
+    top: 130px;
+}
+
+#model3Order{
+    position: relative;
+    top: 135px;
+}
+
+.frtsec{
+    height: 100vh;
+    width: 100%;
+    background-image: url("photos/model-x.jpg");
+    background-position: center;
+    background-size: 2250px;
+    background-repeat: no-repeat;
+}
+
+#model4{
+    position: relative;
+    top: 130px;
+}
+
+#model4Order{
+    position: relative;
+    top: 135px;
+}
+
+.fifthsec{
+    height: 100vh;
+    width: 100%;
+    background-image: url("photos/solarpanels.jpg");
+    background-position: center;
+    background-size: 2250px;
+    background-repeat: no-repeat;
+}
+
+#model5{
+    position: relative;
+    top: 130px;
+}
+
+#model5Order{
+    position: relative;
+    top: 135px;
+}
+
+.sixthsec{
+    height: 100vh;
+    width: 100%;
+    background-image: url("photos/roof.jpg");
+    background-position: center;
+    background-size: 2250px;
+    background-repeat: no-repeat;
+}
+
+#model6{
+    position: relative;
+    top: 130px;
+}
+
+#model6Order{
+    position: relative;
+    top: 135px;
+}
+
+.lastsec{
+    height: 100vh;
+    width: 100%;
+    background-image: url("photos/accessories.jpg");
+    background-position: center;
+    background-size: 2250px;
+    background-repeat: no-repeat;
+}
+
+#model7{
+    position: relative;
+    top: 130px;
+}
+
+#model7Order{
+    position: relative;
+    top: 135px;
+}
+
+.lastsec li{
+    float: left;
+    margin-right: 14px;
+    font-size: 15px;
+    color: black;
+}
+
+.bottomli{
+    position: relative;
+    top: 840px;
+    margin-left: 31%;
+}
