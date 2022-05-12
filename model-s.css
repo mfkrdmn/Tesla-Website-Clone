@@ -1,0 +1,446 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.firstsec{
+    height: 100vh;
+    width: 100%;
+    background: rgb(0,0,0);
+    background-image:  linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 60%), url("photos/model-s.jpg");
+    background-position: center;
+    background-size: 2250px;
+    background-repeat: no-repeat;
+}
+
+ul{
+    list-style: none;
+}
+
+.firstsec li{
+    float: left;
+    margin-right: 25px;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    padding: 6px 15px;
+}
+
+.firstsec li:hover{
+    background-color: hsla(0,0%,0%,.05);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#model1{
+    position: relative;
+    top: 130px;
+}
+
+.modelsspecifications{
+    position: relative;
+    top: 750px;
+}
+
+.modelsspecifications button{
+    padding: 8px 60px;
+    border: 3px solid white;
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+}
+
+.modelsspecifications > span, h2{
+    color: white;
+}
+
+.secsec{
+    height: 100vh;
+    width: 100%;
+    background: rgb(0,0,0);
+    background-image:  linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 90%), url("photos/inside.jpg");
+    background-position: center;
+    background-size: 2250px;
+    background-repeat: no-repeat;
+}
+
+.secthree{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.photo1{
+    width: 50%;
+    height: 30vh;
+    background-image: url("photos/connected.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.secthree > h4,p{
+    color: white;
+}
+
+.photo2{
+    width: 50%;
+    height: 30vh;
+    background-image: url("photos/sound.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.photo3{
+    width: 50%;
+    height: 30vh;
+    background-image: url("photos/audio.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.secfour{
+    width: 100%;
+    height: 80vh;
+    background-image: url("photos/s.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.secfourspecs{
+    position: relative;
+    top: 650px;
+    color: white;
+}
+
+.secfive{
+    height: 20vh;
+    width: 100%;
+}
+
+.secfive button{
+    padding: 7px 50px;
+    border-radius: 20px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+.secsix{
+    height: 145vh;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+}
+
+#engine{
+    height: 80vh;
+    background-image: url("photos/smotor.jpg");
+    background-position: center;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 5px;
+    margin-left: 12px;
+}
+
+#scol{
+    opacity:0.5; 
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+#plaidcol{
+    opacity:0.5; 
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.secseven{
+    width: 100%;
+    height: 60vh;
+    background-image: url("photos/teslair.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.seceight{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.seceight button{
+    padding: 7px 50px;
+    border-radius: 20px;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+}
+
+.secnine{
+    height: 120vh;
+    background-color: black;
+}
+
+.secnine p, span{
+    color: white;
+}
+
+
+.secninefirst{
+    height: 33vh;
+    background-image: url("photos/secninefirstpic.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+
+.secninesec{
+    height: 33vh;
+    background-image: url("photos/secninesecpic.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+
+.secninethrd{
+    height: 33vh;
+    background-image: url("photos/secninethrtpic.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+}
+
+.secten{
+    height: 100vh;
+    padding: 50px;
+}
+
+.secten span,h4,p{
+    color: black;
+}
+
+#secninephoto{
+    height: 80vh;
+    width: 70%;
+    background-image: url("photos/config.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.sectenbuttondiv{
+    position: relative;
+    top: 550px;
+    padding: auto;
+}
+
+#sectenbutton{
+    padding: 5px 60px;
+    border-radius: 20px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+#sectenbutton:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    transition: 0.7s;
+}
+
+.firstline{
+    position: relative;
+    left: 50%;
+    width: 3px;
+    height: 200px;
+    background-color: black;
+    transition: 2s;
+}
+
+.firstlinetext{
+    position: relative;
+    left: 24%;
+    bottom: 85px;
+    width:500px
+}
+
+.secline{
+    position: relative;
+    left: 23%;
+    width: 3px;
+    height: 300px;
+    background-color: black;
+    bottom: 100px;
+    transition: 2s;
+}
+
+.seclinetext{
+    position: relative;
+    left: 51%;
+    bottom: 535px;
+    width:500px
+}
+
+.thdline{
+    position: relative;
+    left: 53%;
+    width: 3px;
+    height: 200px;
+    background-color: black;
+    transition: 2s;
+    bottom: 50px;
+}
+
+.thdlinetext{
+    position: relative;
+    left: 54%;
+    bottom: 68px;
+    width:500px
+}
+
+.seceleven{
+    height: 80vh;
+    background-image: url("photos/Vision.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.secelevenfirstdiv{
+    width: 65%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.row1{
+    position: relative;
+    bottom:150px;
+}
+
+.row3{
+    position: relative;
+    top:150px;
+}
+
+.sectwelve{
+    height: 20vh;
+    width: 100%;
+}
+
+.sectwelve button{
+    padding: 7px 50px;
+    border-radius: 20px;
+    background-color: white;
+    border: 3px solid black;
+}
+
+
+.secthirteen{
+    height: 100vh;
+    width: 100%;
+}
+
+.secthirteenline{
+    width: 75%;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#secthirteenfirstcol{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#secthirteenseccol{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#secthirteenthdcol{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#secthirteenfrthcol{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.secfourteen{
+    height: 100vh;
+    background-color: black;
+}
+
+.secfourteenphoto{
+    height: 100vh;
+    width: 50%;
+    background-image: url("photos/Modelsblackjpg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.secfourteenrightdiv{
+    height: 100vh;
+    color: white;
+    padding-top: 15%;
+}
+
+.secfourteenrightdiv p{ 
+    color: white;
+}
+
+.linedivfourteen{
+    width: 30px;
+    height: 2px;
+    background-color: white;
+}
+
+#fourteenbuttonone{
+    background-color: black;
+    color: white;
+    padding:3px 70px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+#fourteenbuttontwo{
+    background-color: black;
+    color: white;
+    padding:3px 70px;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 30px;
+}
+
+#lastsecbutton1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding:3px 70px;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 30px;
+}
+
+#lastsecbutton2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding:3px 70px;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 30px;
+}
+
+.lastsec{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastsecphoto{
+    background-image: url("photos/lastpic.jpg");
+    width: 50%;
+    height: 22vh;
+    background-position: center;
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
